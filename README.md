@@ -5,8 +5,9 @@ Wordinator was originally a project for a GUI programming course I attended in 2
 
 ## Rewrite goals
 - fix remaining bugs
+- migrate to .NET Core 3.0
 - properly decouple ui and logic
-- add support for user/custom dictionaries
+- add support for custom/user dictionaries and languages/locales
   - define a format for dictionaries
 - add support for custom game board arrangements
 - revise runtime data structures, mainly dictionaries (packed tries)

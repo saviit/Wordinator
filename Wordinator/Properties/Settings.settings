@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Wordinator.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="TekijanNimi" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Sami Viitanen</Value>
+    </Setting>
+    <Setting Name="OhjelmanNimi" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Wordinator</Value>
+    </Setting>
+    <Setting Name="Versio" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1.0</Value>
+    </Setting>
+    <Setting Name="VersioPvm" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">28/12/2012</Value>
+    </Setting>
+    <Setting Name="Vaikeustaso" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ActiveKirjainlaatanTaustaVari" Type="System.Windows.Media.SolidColorBrush" Scope="User">
+      <Value Profile="(Default)">#FFADD8E6</Value>
+    </Setting>
+    <Setting Name="ActiveKirjainlaatanReunusvari" Type="System.Windows.Media.SolidColorBrush" Scope="User">
+      <Value Profile="(Default)">#FF4682B4</Value>
+    </Setting>
+    <Setting Name="InactiveKirjainlaatanTaustavari" Type="System.Windows.Media.SolidColorBrush" Scope="User">
+      <Value Profile="(Default)">#FF4682B4</Value>
+    </Setting>
+    <Setting Name="InactiveKirjainlaatanReunusvari" Type="System.Windows.Media.SolidColorBrush" Scope="User">
+      <Value Profile="(Default)">#FFDAA520</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

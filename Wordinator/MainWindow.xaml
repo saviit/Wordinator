@@ -1,0 +1,34 @@
+﻿<Window x:Class="Wordinator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:my="clr-namespace:GameComponents;assembly=GameComponents"
+        xmlns:about="clr-namespace:AboutDialog;assembly=AboutDialog"
+        xmlns:aloitus="clr-namespace:Aloitusnaytto;assembly=Aloitusnaytto"
+        Title="Wordinator" Height="716" Width="870" 
+        my:Pelilauta.SanaaEiLoytynyt="AnnaSanaaEiLoytynytVirheilmoitus"
+        my:Pelilauta.LaattojenSijoitteluVirhe="AnnaLaattojenSijoitteluVirheilmoitus"
+        my:Pelilauta.SanaEiKiinniAikaisemmassaVirhe="SanaEiKiinniAikaisemmassaVirhe"
+        my:Pelilauta.EnsimmainenSanaEiAloitusruudussaVirhe="EnsimmainenSanaEiAloitusruudussaVirhe"
+        my:Aikalaskuri.AikalaskuriAlarm="Window_OnAikalaskuriAlarm"
+        my:PelilautaRuutu.LisattiinTyhjaLaatta="Window_LisattiinTyhjaLaatta"
+        aloitus:Aloitusnaytto.UusiPeli="Window_UusiPeli"
+        aloitus:Aloitusnaytto.Asetukset="Window_Asetukset"
+        aloitus:Aloitusnaytto.LopetaPeli="Window_LopetaPeli"
+        aloitus:Aloitusnaytto.NaytaAvustus="Window_NaytaAvustus"
+        Closing="Window_Closing" ResizeMode="CanMinimize">
+    <StackPanel Name="window_content" Orientation="Vertical" Background="SteelBlue">
+        <Menu Height="23" Name="menu1">
+            <MenuItem Header="_Peli">
+                <MenuItem Header="_Uusi peli" Click="MenuItemNewGame_Click"/>
+                <MenuItem Header="_Lopeta" Click="MenuItemQuit_Click" />
+            </MenuItem>
+            <MenuItem Header="_Asetukset">
+                <MenuItem Header="_Pelin asetukset" Click="MenuItemSettings_Click" />
+            </MenuItem>
+            <MenuItem Header="_Ohje">
+                <MenuItem Header="_Tietoja ohjelmasta" Click="MenuItemAbout_Click" />
+                <MenuItem Header="_Peliohjeet" Click="MenuItemPeliohjeet_Click"/>
+            </MenuItem>
+        </Menu>
+        </StackPanel>
+</Window>

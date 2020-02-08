@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="Aloitusnaytto.Aloitusnaytto"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="693" d:DesignWidth="870" xmlns:my="clr-namespace:GameComponents;assembly=GameComponents">
+    <Canvas Background="SteelBlue">
+        <my:Kirjainlaatta Canvas.Left="170" Canvas.Top="80" Name="W" Kirjain="W" Pistearvo="4" BorderColor="Goldenrod"/>
+        <my:Kirjainlaatta Canvas.Left="220" Canvas.Top="80" Name="O" Kirjain="O" Pistearvo="2" BorderColor="Goldenrod"/>
+        <my:Kirjainlaatta Canvas.Left="270" Canvas.Top="80" Name="R" Kirjain="R" Pistearvo="4" BorderColor="Goldenrod"/>
+        <my:Kirjainlaatta Canvas.Left="320" Canvas.Top="80" Name="D" Kirjain="D" Pistearvo="7" BorderColor="Goldenrod"/>
+        <my:Kirjainlaatta Canvas.Left="370" Canvas.Top="80" Name="I" Kirjain="I" Pistearvo="1" BorderColor="Goldenrod"/>
+        <my:Kirjainlaatta Canvas.Left="420" Canvas.Top="80" Name="N" Kirjain="N" Pistearvo="1" BorderColor="Goldenrod"/>
+        <my:Kirjainlaatta Canvas.Left="470" Canvas.Top="80" Name="A" Kirjain="A" Pistearvo="1" BorderColor="Goldenrod"/>
+        <my:Kirjainlaatta Canvas.Left="520" Canvas.Top="80" Name="T" Kirjain="T" Pistearvo="1" BorderColor="Goldenrod"/>
+        <my:Kirjainlaatta Canvas.Left="570" Canvas.Top="80" Name="O2" Kirjain="O" Pistearvo="2" BorderColor="Goldenrod"/>
+        <my:Kirjainlaatta Canvas.Left="620" Canvas.Top="80" Name="R2" Kirjain="R" Pistearvo="4" BorderColor="Goldenrod"/>
+        
+        <TextBlock Name="peliSubtitle" Text="Sanojenmuodostuspeli" Canvas.Left="350" Canvas.Top="140" Foreground="BlanchedAlmond" FontSize="36"/>
+        <TextBlock Name="peliVersio" Text="" Canvas.Left="500" Canvas.Top="620" Foreground="BlanchedAlmond" FontSize="28" />
+        <TextBlock Name="uusiPeliKuvaus" Canvas.Left="500" Canvas.Top="240" Foreground="BlanchedAlmond" FontSize="22" TextWrapping="Wrap" Width="250" Height="60" />
+        <TextBlock Name="asetuksetKuvaus" Canvas.Left="500" Canvas.Top="320" Foreground="BlanchedAlmond" FontSize="22" TextWrapping="Wrap" Width="250" Height="60" />
+        <TextBlock Name="ohjeetKuvaus" Canvas.Left="500" Canvas.Top="400" Foreground="BlanchedAlmond" FontSize="22" TextWrapping="Wrap" Width="250" Height="60" />
+        <TextBlock Name="lopetaPeliKuvaus" Canvas.Left="500" Canvas.Top="480" Foreground="BlanchedAlmond" FontSize="22" TextWrapping="Wrap" Width="250" Height="60" />
+        
+        <Button Name="btnUusiPeli" Content="_Uusi peli" Canvas.Left="350" Canvas.Top="240" Height="60" Width="120" FontSize="22" MouseEnter="btnUusiPeli_MouseEnter" MouseLeave="btnUusiPeli_MouseLeave" Click="btnUusiPeli_Click" />
+        <Button Name="btnAsetukset" Content="_Asetukset" Canvas.Left="350" Canvas.Top="320" Height="60" Width="120" FontSize="22" MouseEnter="btnAsetukset_MouseEnter" MouseLeave="btnAsetukset_MouseLeave" Click="btnAsetukset_Click" />
+        <Button Name="btnAvustus" Content="_Ohjeet" Canvas.Left="350" Canvas.Top="400" Height="60" Width="120" FontSize="22" MouseEnter="btnAvustus_MouseEnter" MouseLeave="btnAvustus_MouseLeave" Click="btnAvustus_Click" />
+        <Button Name="btnLopetaPeli" Content="_Lopeta peli" Canvas.Left="350" Canvas.Top="480" Height="60" Width="120" FontSize="22" MouseEnter="btnLopetaPeli_MouseEnter" MouseLeave="btnLopetaPeli_MouseLeave" Click="btnLopetaPeli_Click" />
+        
+    </Canvas>
+</UserControl>

@@ -1,0 +1,33 @@
+﻿<Window x:Class="AboutDialog.AboutDialog"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" Title="Tietoja"
+             d:DesignHeight="300" d:DesignWidth="300" Width="300" Height="300">
+    <StackPanel Height="267">
+        <Label Content="Otsikko" Height="38" HorizontalAlignment="Stretch" Margin="10,10,10,10" Name="labelOtsikko" VerticalAlignment="Top" Width="207" FontWeight="Bold" FontSize="16" />
+        <Grid Name="taulu" Margin="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label Content="Ohjelman nimi: " Height="28" Name="lblohjelmannimi" Grid.Row="0" FontWeight="Bold" />
+            <Label Content="Tekijä: " Height="28" Name="lbltekija" Grid.Row="1" FontWeight="Bold" />
+            <Label Content="Versio: " Height="28" Name="lblversio" Grid.Row="2" FontWeight="Bold" />
+            <Label Content="Päiväys: " Height="28" Name="lblpaivays" Grid.Row="3" FontWeight="Bold" />
+            <Label Content="" Height="28" Name="ohjelmanNimi" Grid.Column="1" Grid.Row="0" />
+            <Label Content="" Height="28" Name="tekijanNimi" Grid.Column="1" Grid.Row="1"/>
+            <Label Content="" Height="28" Name="versioNro" Grid.Column="1" Grid.Row="2"/>
+            <Label Content="" Height="28" Name="paivays" Grid.Column="1" Grid.Row="3"/>
+        </Grid>
+        <Separator Height="2" Name="separator1" Width="Auto" />
+        <Button Name="btnSulje" Content="_Sulje" Click="btnSulje_Click" Margin="10"/>
+    </StackPanel>
+</Window>
