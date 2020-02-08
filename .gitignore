@@ -6,26 +6,26 @@ Wordinator.suo
 
 AboutDialog/bin
 AboutDialog/obj
-#AboutDialog/AboutDialog.csproj
+AboutDialog/AboutDialog.csproj
 
 Aloitusnaytto/bin
 Aloitusnaytto/obj
-#Aloitusnaytto/Aloitusnaytto.csproj
+Aloitusnaytto/Aloitusnaytto.csproj
 
 GameComponents/bin
 GameComponents/obj
-#GameComponents/GameComponents.csproj
+GameComponents/GameComponents.csproj
 
 KirjainValintaDialog/bin
 KirjainValintaDialog/obj
-#KirjainValintaDialog/KirjainValintaDialog.csproj
+KirjainValintaDialog/KirjainValintaDialog.csproj
 
 SettingsDialog/bin
 SettingsDialog/obj
-#SettingsDialog/SettingsDialog.csproj
+SettingsDialog/SettingsDialog.csproj
 
 Wordinator/bin
 Wordinator/obj
 Wordinator/sanalista_kotus.txt
 #Wordinator/Wordinator.ico
-#Wordinator/Wordinator.csproj
+Wordinator/Wordinator.csproj
