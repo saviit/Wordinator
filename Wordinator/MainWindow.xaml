@@ -15,7 +15,7 @@
         aloitus:Aloitusnaytto.Asetukset="Window_Asetukset"
         aloitus:Aloitusnaytto.LopetaPeli="Window_LopetaPeli"
         aloitus:Aloitusnaytto.NaytaAvustus="Window_NaytaAvustus"
-        Closing="Window_Closing" ResizeMode="CanMinimize">
+        Closing="Window_Closing">
     <StackPanel Name="window_content" Orientation="Vertical" Background="SteelBlue">
         <Menu Height="23" Name="menu1">
             <MenuItem Header="_Peli">
